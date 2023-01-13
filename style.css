@@ -1,0 +1,27 @@
+body {
+     font-family: arial, helvetica, sans;
+     text-align: center;
+     margin: auto;
+     background: #fffdd0;
+     padding: 20px;
+}
+
+div.text {
+     text-align: left;
+}
+
+img.hero {
+     max-width: 25%;
+     max-height: 256px;
+     padding: 20px;
+}
+
+div.hero {
+    align: center;
+    margin: auto;
+    width: 100%;
+    clear: both;
+    padding: 20px;
+}
+
+

@@ -1,0 +1,152 @@
+---
+layout: default
+title: Reading List for Graduate Students
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+
+<div class="text">
+
+<h2>Reading List for Graduate Students</h2>
+
+<p>
+The following is a selection of "classic" papers that describe the foundational principles of
+distributed systems, along with a selection of well-known systems that make use of these
+principles.  Papers marked (REQ) are required weekly readings for all graduate students.
+The remainder of the paper are deeper references for concepts discussed in class,
+and are strongly suggested for any student that intends to specialize in distributed systems.
+</p>
+
+<p>
+Graduate students will form reading groups of 2-4 students which will
+meet weekly to digest each paper.  First, each student should read the
+paper once individually, and take a few notes according to the rubric
+below.  Then, gather with your group later in the week to discuss the
+paper, work out an example, and write up a single group summary.
+</p>
+
+<p>
+Summaries are due at 10PM on Mondays and should be submitted
+as a single PDF document via the "Assignments" tab in Sakai.
+All group members must contribute to the discussion and writing
+of the document, and should be named as authors on the submission.
+One student should submit on behalf of the whole group.  
+All authors will receive the same grade.
+</p>
+
+<p>
+A good summary should be one to two pages of clearly written, well organized text. If the paper presents some opinion or advice (e.g. "A Note on Distributed Computing") then you should summarize the arguments made by the paper in your own words,
+and offer some reflection on the completeness or applicability of the advice. If the paper
+is presenting a system or an algorithm, then you should address the following questions:
+<ul>
+<li> What is the problem that this paper is proposing to solve?
+<li> What is the key observation or insight into the problem?
+<li> What is the overall structure of the system or algorithmic approach presented as a solution?
+<li> How is the solution evaluated, and what are the results?
+</ul>
+</p>
+
+
+
+<h3>Advice and Lessons Learned</h3>
+
+<ul>
+<li> (REQ) Jim Waldo, Geoff Wyant, Ann Wollrath, and Sam Kendall. "A Note on Distributed Computing", Technical Report. <a href=https://link.springer.com/content/pdf/10.1007/3-540-62852-5_6.pdf>PDF</a>
+<li> Butler Lampson, "Hints for computer system design", Proceedings of SOSP, 1983. <a href=https://doi.org/10.1145/800217.806614>DOI</a>
+<li> Saltzer, Reed, and Clark, "End-to-End Arguments in System Design", ACM Transactions on Computer Systems, 1984.
+<li> Eric A. Brewer, Lessons from Giant-Scale Services, IEEE Internet Computing. Vol. 5, No. 4. pp. 46-55. July/August 2001. <A href=http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=939450&sortType%3Dasc_p_Sequence%26filter%3DAND%28p_IS_Number%3A20329%29>DOI</a>
+<li> (REQ) McSherry, Frank, Michael Isard, and Derek G. Murray. "Scalability! But at what COST?" 15th Workshop on Hot Topics in Operating Systems (HotOS XV), 2015.  <a href=https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf>PDF</a></b>
+</ul>
+
+<h3>Remote Procedure Call</h3>
+
+<ul>
+<li> Birrel and Nelson, "Implementing Remote Procedure Calls", ACM Transactions on Computer Systems, 1984. <a href=https://dl.acm.org/doi/pdf/10.1145/2080.357392>PDF</a>
+<li> Andrew Tannenbaum and Robert van Renesse, "A Critique of the Remote Procedure Call Paradigm", (unclear: possibly a technical report?), <a href=https://www.cs.vu.nl/~ast/Publications/Papers/euteco-1988.pdf>PDF</a>
+<li> (REQ) Philip Bogle and Barbara Liskov, "Reducing Cross Domain Call Overhead Using Batched Futures", Proceedings of OOPSALA 1994, <a href=https://dl.acm.org/doi/abs/10.1145/191080.191133>DOI</a>
+<li> Soumagne, Jerome, et al. "Mercury: Enabling remote procedure call for high-performance computing." 2013 IEEE International Conference on Cluster Computing (CLUSTER). IEEE, 2013.  <a href=https://doi.org/10.1109/CLUSTER.2013.6702617>DOI</a>
+</ul>
+
+<h3>Robustness and Correctness</h3>
+
+<ul>
+<li> Butler Lampson and Howard Sturgis, "Crash Recovery in a Distributed Data Storage System", Technical Report, Xerox PARC, 1979. <a href=https://www3.nd.edu/~dthain/courses/cse66771/summer2014/papers/crash.pdf>PDF</a>
+<li> Richard Schlichting and Fred Schneider, "Fail-Stop Processors: an approach to designing fault tolerant computing systems", ACM Transactions on Computer Systems 1;3, 1983. <a href=http://dl.acm.org/citation.cfm?id=357371>DOI</a>
+<li> P. J. Leu, "Concurrent robust checkpointing and recovery in distributed systems", International Conference on Data Engineering, 1988. <A href=http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=105457>DOI</a>
+<li> Gerard J. Holzmann, "The Model Checker SPIN", IEEE Transactions on Software Engineering, 23:5, 1997. <a href=http://www.computer.org/csdl/trans/ts/1997/05/e0279-abs.html>DOI</a>
+</ul>
+
+<h3>Time and Ordering</h3>
+
+<ul>
+<li> Leslie Lamport, "Time, Clocks, and Ordering of Events in a Distributed System", Communications of the ACM 12:7, 1978.
+<a href=https://dl.acm.org/doi/pdf/10.1145/3335772.3335934>PDF</a>
+<li> (REQ) K. Mani Chandy and Leslie Lamport, "Distributed Snapshots: Determining Global States of Distributed Systems", ACM Transactions on Computer Systems, 3:1, 1985. <a href=https://dl.acm.org/doi/pdf/10.1145/214451.214456>PDF</a>
+<li> Rob Strom and Shaula Yemini, "Optimistic recovery in distributed systems",
+ACM Transactions on Computer Systems, Aug 1985. <a href=https://doi.org/10.1145/3959.3962>DOI</a>
+<li> D. Jefferson, B. Beckman, F. Wieland, L. Blume, and M. DiLoreto. "Time warp operating system." In Proceedings of the eleventh ACM Symposium on Operating systems principles, pp. 77-93. 1987.
+<a href=https://dl.acm.org/doi/pdf/10.1145/41457.37508>PDF</a>
+<li> D. L. Mills, "Internet time synchronization: The network time protocol", IEEE Transactions on Communication, 39:10. <a href=http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=103043>DOI</a>
+</ul>
+
+<h3>Consistency and Replication</h3>
+
+<ul>
+<li> (REQ) C. Gray and D. Cheriton, "Leases: An Efficient Fault Tolerant Mechanism for Distributed File Cache Consistency", ACM Symposium on Operating Systems Principles, 1989.  <A href=http://dl.acm.org/citation.cfm?id=74870>DOI</a>
+<li> Ladin, Liskov, Shrira, and Ghemaway, "Providing High Availability with Lazy Replication", ACM TOCS 10:4, 1992. <a href=http://dl.acm.org/citation.cfm?id=138877>DOI</a>
+<li> Renesse and Schneider, "Chain Replication for Supporting High Throughput and Availability", USENIX Symposium on Operating System Design and Implementation, 2004. <a href=https://www.usenix.org/event/osdi04/tech/full_papers/renesse/renesse.pdf>PDF</a>
+<li> (REQ) S. Gilbert and N. Lynch, "Perspectives on the CAP Theorem," in Computer, vol. 45, no.
+2, pp. 30-36, Feb. 2012. <a href=http://doi.org/10.1109/MC.2011.389>PDF</a>
+<li> (REQ) Joseph Hellerstein and Peter Alvaro, "Keeping CALM: when distributed consistency is easy", 
+Communications of the ACM, September 2020, Vol. 63 No. 9.  <a href=http://dx.doi.org/10.1145/3369736>DOI</a>.
+</ul>
+
+<h3>Consensus</h3>
+
+<ul>
+<li> Hector Garcia-Molina, "Elections in a Distributed Computing System", IEEE Transactions on Computers, volume C-31, number 1, January 1982.  <a href=https://doi.org/10.1109/TC.1982.1675885>DOI</a>
+<li> Glenn Ricart and Ashok Agrawala, "An Optimal Algorithm Election for Mutual Exclusion in Computer Networks", Communications of the ACM, volume 24, number 1, January 1981. <a href=https://dl.acm.org/doi/pdf/10.1145/358527.358537>DOI</a>
+<li> K. Mani Chandi, Jayadev Misra, Laura Hass, "Distributed Deadlock Detection", ACM Transactions on Computer Systems 1:2, 1983, <a href=http://dl.acm.org/citation.cfm?id=357365>DOI</a>
+<li> (REQ) Michael Fischer, Nancy Lynch, Michael Paterson, "Impossibility of Distributed Consensus with One Faulty Process", Journal of the ACM, volume 32, issue 2, April 1985.  <a href=https://doi.org/10.1145/3149.214121>DOI</a>
+<li> (REQ) Leslie Lamport, Robert Shostak, and Marshall Pease, "The Byzantine Generals Problem", ACM Transactions on Programming Languages and Systems, volume 4, number 3, July 1982.  <a href=papers/byzantine.pdf>PDF</a>
+<li> Miguel Castro and Barbara Liskov, "Practical Byzantine Fault Tolerance", Proceedings of OSDI, February 1999. <a href=http://pmg.csail.mit.edu/papers/osdi99.pdf>PDF</a>
+<li> Leslie Lamport, "Paxos Made Simple", ACM SIGACT News, November 2001.  <a href=https://courses.cs.washington.edu/courses/cse550/17au/papers/CSE550.paxos-simple.pdf>PDF</a>
+<li> (REQ) Diego Ongaro and John Osterhout, "(RAFT) In Search of an Understandable Consensus Algorithm", USENIX Annual Technical Conference, June 2014.  <a href=https://www.usenix.org/system/files/conference/atc14/atc14-paper-ongaro.pdf>PDF</a>
+</ul>
+
+<h3>Security and Trust</h3>
+
+<ul>
+<li> Roger Needham and Michael Schroeder,"Using encryption for authentication in large networks of computers",
+Communications of the ACM, 1978. <a href=https://doi.org/10.1145/359657.359659>DOI</a>
+<li> Steiner, Neuman, and Schiller, Kerberos: An authentication service for open network systems, USENIX Winter Conference, 1988. <a href=http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.606&rep=rep1&type=pdf>PDF</a>
+<li> (REQ) Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System, 2009.  <A href=https://bitcoin.org/bitcoin.pdf>PDF</a>
+</ul>
+
+<h3>Case Studies in Distributed Systems</h3>
+
+<ul>
+<li> (REQ) Ion Stoica, Robert Morris, David Karger, M. Frans Kasshoek, Hari Balakrishnan, "Chord: A Scalable Peer-to-Peer Lookup Service for Internet Applications", ACM SIGCOMM Review, volume 31, issue 4, October 2001.  <a href=https://doi.org/10.1145/964723.383071>DOI</a>
+<li> Douglas Thain, Todd Tannenbaum, and Miron Livny, "Distributed Computing in Practice: The Condor Experience", Concurrency: Practice and Experience, 2004.  <a href=https://doi.org/10.1002/cpe.938>DOI</a>
+<li> Petros Maniatis, Mema Roussopoulos, T. J. Giuli, David S. H. Rosenthal, and Mary Baker, "The LOCKSS peer-to-peer digital preservation system", ACM Transactions on Computer Systems, 23:1, 2005. <a href=http://dl.acm.org/citation.cfm?id=1047917>DOI</a>
+<li> Sage Weil, Scott Brandy, Ethan Miller, Darrell Long, and Carlos Maltzahn, "Ceph: A scalable, high-performance distributed file system.", Proceedings of USENIX OSDI, 2006.  <A href=https://www.usenix.org/legacy/events/osdi06/tech/full_papers/weil/weil_html>HTML</a>
+<li> Jeffrey Dean and Sanjay Ghemawat, "MapReduce: Simplified Data Processing on Large Cluster", Communications of the ACM, volume 51, issue 1, January 2008.  <a href=https://dl.acm.org/doi/abs/10.1145/1327452.1327492>DOI</a>
+<li> Hunt, Patrick, et al. "ZooKeeper: Wait-free Coordination for Internet-scale Systems." USENIX annual technical conference. Vol. 8. No. 9. 2010.
+<li> Matei Zaharia, Mosharaf Chowdhury, Michael Franklin, Scott Shenker, and Ion Stoica, "Spark: Cluster Computing with Working Sets", Proceedings of USENIX HotCloud, 2010.  <a href=https://www.usenix.org/legacy/event/hotcloud10/tech/full_papers/Zaharia.pdf>PDF</a>
+<li> Kay Osterhout, Patrick Wendell, Matei Zaharia, Ion Stoica, "Sparrow: Distributed, Low Latency Scheduling", Processings of SOSP 2013.  <a href=https://doi.org/10.1145/2517349.2522716>DOI</a>
+<li>(REQ) Philippe Dobbelaere and Kyumars Sheykh Esmaili, "Kafka versus RabbitMQ: A comparative study of two industry reference publish/subscribe implementations: Industry Paper",  Proceedings of ACM Distributed and Event-based Systems (DEBS), 2017.  <A href=https://doi.org/10.1145/3093742.3093908>DOI</a>
+</ul>
+</ol>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+---
+layout: default
+title: CSE 40771/60771 - Distributed Systems
+classes: wide
+---
+<!doctype html>
+<html lang="en">
+
+<body>
+
+<p>
+<strong>
+CSE 40771/60771 Distributed Systems - Spring 2022<br>
+<a href=dthain.github.io>Prof. Douglas Thain</a><br>
+TA: Thanh Phung<br>
+9:25-10:15 MWF, Debartolo Hall 119<br>
+Department of Computer Science and Engineering<br>
+University of Notre Dame
+</strong>
+</p>
+
+<h2>Course Overview</h2>
+
+<p>
+<i>
+A distributed system is any computer system consisting of multiple machines that work together on a common problem.
+Distributed systems appear in many areas of computing, including cloud computing, mobile computing, edge computing,
+the internet of things, aerospace systems, and more.    Distributed systems have been both interesting and difficult to
+build because their components may be autonomous and highly failure-prone.
+Students will learn the fundamental principles of distributed systems, build a distributed hash table through
+a series of cumulative assignments, and undertake a course project of their own choice.
+This will be a fun and challenging class for students who like to
+build working software systems.
+</i>
+</p>
+
+<h2>Course Materials</h2>
+
+<ul>
+<li> <a href=syllabus.html>Syllabus</a>
+<li> <a href=https://www.distributed-systems.net/index.php/books/ds3/>Textbook: Distributed Systems, Third Edition</a>
+<li> <a href=readings.html>Research Papers for Graduate Students</a>
+<li> <a href=general>General Instructions for Assignments</a>
+<li> <a href=https://sakailogin.nd.edu/portal/site/SP22-CSE-40771-CX-01>Course Sakai Home Page</a>
+</ul>
+
+<h2>Office Hours</h2>
+
+Office hours will be held in person starting the second week of class.
+If you prefer to talk via Zoom, please indicate that via a Slack message,
+and we will dial into Zoom.
+  
+<ul>
+<li> Prof. Thain: TBA in 384C Fitzpatrick (CSE Main Office) <a href=https://notredame.zoom.us/j/98135137451>(office hours zoom on request)</a>
+<li> Thanh Phung: TBA in 150B Fitzpatrick (CSE Student Commons) <a href=https://notredame.zoom.us/j/98135137451>(office hours zoom on request)</a><br>
+</ul>
+
+<h2>Course Schedule</h2>
+
+<style>
+td { border: 1px solid black;} 
+</style>
+
+<table>
+
+<th><td>Monday<td>Wednesday<td>Friday<td><a href=readings.html>Grad Readings</a></th>
+
+<tr>
+<td>Jan 16
+<td>Intro and Purposes<br>Ch 1
+<td>Architectural Styles<br>Ch 2.1-2.2
+<td>System Architectures<br>Ch 2.3-2.4
+<td><a href=papers/Waldo1997_Chapter_ANoteOnDistributedComputing.pdf>A Note on Distributed Computing</a>
+
+<tr>
+<td>Jan 23
+<td>Processes<br>Chapter 3<br>
+<td>Clients and Servers<br>Chapter 3<br><a href=a1>A1 Due: Measuring</a>
+<td>Server Clusters<br>Chapter 3
+<td><a href=papers/hotos15-paper-mcsherry.pdf>Scalability! But at what COST?</a>
+
+<tr>
+<td>Jan 30
+<td>Communications<br>Chapter 4.1<br>
+<td>Remote Procedure Call<br>Chapter 4.2
+<td>RPC Semantics<br>Chapter 8.3
+<td><a href=papers/191080.191133.pdf>Reducing Cross Domain...</a>
+
+<tr>
+<td>Feb 6
+<td>State Management<br>
+<td>Case Study: NFS<br>Chapter 2.4<br><a href=https://datatracker.ietf.org/doc/html/rfc1094>RFC 1094</a><br><b>A2 Due: RPC</b>  
+<td>Messaging<br>Chapter 4.3
+<td><a href=papers/3093742.3093908.pdf>Kafka/RabbitMQ</a>
+
+<tr>
+<td>Feb 13
+<td>Naming<br>Chapter 5.1-5.2<br>
+<td>Structured Naming<br>Chapter 5.3<br><b>A3 Due: Persistence</b>
+<td>Attribute Naming<br>Chapter 5.4
+<td><a href=papers/964723.383071.pdf>Chord</a>
+
+<tr>
+<td>Feb 20
+<td>What is Time?<br>Chapter 6.1
+<td>Logical Clocks<br>Chapter 6.2
+<td>Vector Clocks<br>Chapter 6.2
+<td><a href=papers/214451.214456.pdf>Distributed Snapshots</a>
+
+<tr>
+<td>Feb 27
+<td>Mutual Exclusion<br>Chapter 6.3<br><br><b>A4 Due: Concurrency</b>
+<td>Catch Up
+<td>Mutex / Leases
+<td><a href=papers/3149.214121.pdf>Impossibility of Consensus</a>
+
+<tr>
+<td>Mar 6
+<td><strong>Midterm Exam</strong>
+<td>Elections<br>Chapter 6.4<br>
+<td>Consistency Intro<br><a href=project>Project Proposal Due</a>
+<td>
+
+<tr>
+<td>Mar 13
+<td colspan=5>
+Fall Break
+
+<tr>
+<td>Mar 20
+<td>Replication Strategies<br>Chapter 7.1
+<td>Data Centric Consistency<br>Chapter 7.2
+<td>Client Centric Consistency<br>Chapter 7.3
+<td><a href=papers/74851.74870.pdf>Leases</a>
+
+<tr>
+<td>Mar 27
+<td>Consistency Contd
+<td>Two Phase Commit<br>Chapter 8.5<br><b>A5 Due: Replication</b>
+<td>Chain Replication<br><a href=https://www.usenix.org/legacy/event/osdi04/tech/full_papers/renesse/renesse.pdf>(Paper)</a>
+<td><a href=papers/3369736.pdf>Keeping CALM</a>
+
+<tr>
+<td>Apr 3
+<td>Security - General<br>Chapter 9.1/9.3
+<td>Symmetric Key Systems<br>Chapter 9.2
+<td>Asymmetric Key Systems<br>Chapter 9.2
+<td><a href=papers/byzantine.pdf>Byzantine Generals</a>
+
+<tr>
+<td>Apr 10
+<td>Case Study: HTCondor<br><a href=papers/htcondor.pdf>(Paper)</a>
+<td>Case Study: Ceph<br><a href=papers/ceph.pdf>(Paper)</a></a><br><a href=project>Progress Report Due<?a>
+<td>Case Study: Kafka<br><a href=papers/kafka.pdf>(Paper)</a>
+<td><a href=papers/bitcoin.pdf>Bitcoin</a>
+
+<tr>
+<td>Apr 17
+<td>Case Study: Bitcoin<br><a href=https://distsys-fa21.github.io/papers/bitcoin.pdf>(Paper)</a>
+<td colspan=2>Thanksgiving Break
+<td>
+
+<tr>
+<td>Ap4 24
+<td>
+<a href=project>Project Talks</a>
+<td>
+<a href=project>Project Talks</a>
+<td>
+<a href=project>Project Talks</a>
+<td>
+
+<tr>
+<td>May 1
+<td><a href=project>Project Talks</a>
+<td><a href=project>Project Talks</a>
+<a href=project>Final Project<br>Due Wed at 5PM</a>
+
+<td>
+
+<tr><td colspan=5>
+<strong>Final Exam - Thursday, May 11th at 8:00AM</strong>
+</table>
+
+</body>
+</html>
+
+
