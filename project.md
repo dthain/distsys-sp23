@@ -7,7 +7,7 @@ title: Course Project
 
 ## Requirements
 
-The final project in this course will be open ended.  You will propose, carry out, and report upon a project in groups of **two*** students.
+The final project in this course will be open ended.  You will propose, carry out, and report upon a project in groups of **two** students.
 Projects must have the following elements:
 
 - **Build a System** - Your project must involve constructing a system of some complexity
@@ -32,11 +32,14 @@ during the last week of class.
 
 Following are some ideas to get you thinking.  You are welcome to modify one of these ideas,
 or to pick a different problem, but talk to Prof. Thain first if you have something radically different in mind.
+<b>One thing:</b> please no cryptocurrency implementations!
+These end up consuming a lot of courses to no productive end.
 
-**Peer to Peer Chat System** - Build a system that allows for interactive chat
+**Peer to Peer Communication Network** - Build a system that allows for social interaction
+(live chat, or news updates, or social networking)
 between many users, without requiring any centralized server.  Each participant
-in the system should have their own independent node that passes chat messages
-back and forth.  Consider how to discover other nodes, pass messages to the rest
+in the system should have their own independent node that passes appropriate messages
+back and forth.  Decide how to discover other nodes, pass messages to the rest
 of the system, put messages in a suitable order, and how to deal with disconnections
 and outages.  Measure the latency and throughput of message dissemination as
 the system grows in size.
@@ -96,18 +99,18 @@ that can be explored in a fixed amount of time.
 
 ## Milestones
 
-**Project Proposal - Friday, October 15th** -
+**Project Proposal - Friday, March 10th** -
 Turn in a document that describes the overall shape of your project.
 This should include the project partners, a high level description
 of the goals and structure of the system, identification of the key
-"distributed system" problem in the system, 
+*distributed systems* problem in the system, 
 what languages and resources will be necessary to carry it out,
 and your plan for evaluating the system.  The proposal should be
 about two full pages of text.  The instructor will follow up with
 you to make sure that the project is of appropriate size and difficulty.
-**Submit this via the Assignments tab in Sakai.**
+**Submit this via the Assignments tab in Canvas.**
 
-**Progess Report - Wednesday, November 17th** -
+**Progess Report - Wednesday, April 5th** -
 Turn in a detailed report describing the overall design of your
 system and your progress towards building it.  This will be a substantial
 report of some length that will require you to  think carefully about the
@@ -160,7 +163,7 @@ with the link no later than 5PM the day before the presentation.  (It's fine if 
 continue to update the presentation after that point, but I need the link to assemble
 the schedule.)
 
-**Final Submission - Wednesday, December 8th at 5PM** - Turn in your code and the final paper.
+**Final Submission - Wednesday, May 3rd at 5PM** - Turn in your code and the final paper.
 The code should be structured such that the instructor can build and
 execute it independently.  The paper should give an overview of the
 goal or the problem, a detailed description of the structure of your
@@ -170,8 +173,9 @@ material from your progress report regarding the architecture of the system,
 but of course the material should be updated and extended substantially.
 There is no specific length requirement; the paper should be long enough to explain all
 of the necessary details.  The said, anything less than five pages
-is probably too short; anything longer than fifteen pages is probably too long.
-**Submit your final report as a PDF via the Assignments tab in Sakai,
+is much too short; anything longer than fifteen pages is probably too long.
+
+**Submit your final report as a PDF via the Assignments tab in Canvas,
 and your final code into the dropbox directory on the student machines.**
 
 
