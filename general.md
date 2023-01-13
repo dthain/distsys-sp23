@@ -110,13 +110,13 @@ unless specifically requested.
 For example, the dropbox for assignment one is here:
 
 ```
-/escnfs/courses/sp22-cse-40771.01/dropbox/NETID/a1
+/escnfs/courses/sp23-cse-40771.01/dropbox/NETID/a1
 ```
 
 Graduate students enrolled in 60771 use this directory instead:
 
 ```
-/escnfs/courses/sp22-cse-40771.01/dropbox/NETID/a1
+/escnfs/courses/sp23-cse-40771.01/dropbox/NETID/a1
 ```
 
 Substitute your netid and the appropriate assignment number as needed.
