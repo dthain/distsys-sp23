@@ -7,7 +7,7 @@ layout: default
 ## Setup a Python 3 Environment
 
 The five programming assignments must be written in Python 3 and run
-correctly on the CSE student machines.  (student00-07.cse.nd.edu)
+correctly on the CSE student machines.  (student10-13.cse.nd.edu)
 If you prefer to do your development work on your laptop or another
 machine, that's ok, but then you are responsible for setting up the appropriate
 environment, and then ensuring that your work functions on the student machines.
@@ -21,7 +21,7 @@ your own environment with the correct version.
 First, log into one of the student machines:
 
 ```
-ssh <netID>@student00.cse.nd.edu
+ssh <netID>@student10.cse.nd.edu
 ```
 
 Where `<netID>` is your Notre Dame netID. Use your account password as student machine login password.
@@ -50,8 +50,8 @@ Then, whenever you are working on this class, activate the `distsys`
 environment, and you will have the right version of Python:
 
 ```
-(base) dthain@student02$ conda activate distsys
-(distsys) dthain@student02:~$ python -V
+(base) dthain@student10$ conda activate distsys
+(distsys) dthain@student10:~$ python -V
 Python 3.9.6
 ```
 
@@ -59,10 +59,10 @@ To switch back to the default environment for another class,
  use `conda deactivate` one or more times, until your prompt is clean:
 
 ```
-(distsys) dthain@student02$ conda deactivate
-(base) dthain@student02$ conda deactivate
+(distsys) dthain@student10$ conda deactivate
+(base) dthain@student10$ conda deactivate
 dthain@student02:~$ python -V
-Python 2.7.5
+Python 3.6.8
 ```
 
 When your prompt is clean, you are out of any Conda environment, using the original version of Python on the student machine.
@@ -116,7 +116,7 @@ For example, the dropbox for assignment one is here:
 Graduate students enrolled in 60771 use this directory instead:
 
 ```
-/escnfs/courses/sp23-cse-40771.01/dropbox/NETID/a1
+/escnfs/courses/sp23-cse-60771.01/dropbox/NETID/a1
 ```
 
 Substitute your netid and the appropriate assignment number as needed.

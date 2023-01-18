@@ -4,19 +4,12 @@ title: Syllabus
 ---
 <h1>CSE 40771/60771 - Distributed Systems - Spring 2023</h1>
 <p>
-9:25-10:15 MWF, Debartolo Hall 199
-</p>
-<p>
 <strong><a href=http://www.nd.edu/~dthain>Prof. Douglas Thain</a></strong><br>
-Email: dthain at nd dot edu<br>
-Office: 384C Fitzpatrick<br>
-Office Hours: See Web Page<br>
 <strong>TA: Thanh Phung</strong><br>
-Email: tphung at nd.edu<br>
-Office: Hours: TBA<br>
-</p>
 
-<strong>Course Web Page:</strong> <a href=dthain.github.io/distsys-fa23>dthain.github.io/distsys-fa23</a>
+<p>
+<strong>Course Web Page:</strong> <a href=https://dthain.github.io/distsys-fa23>dthain.github.io/distsys-fa23</a>
+</p>
 
 <p>
 A distributed system is any computer system consisting of multiple machines that work together on a common problem.  Distributed systems appear in many areas of computing, including cloud computing, mobile computing, edge computing, the internet of things, aerospace systems, and more.    Distributed systems have been both interesting and difficult to build because their components may be autonomous and highly failure-prone.   Students will learn the fundamental principles of distributed systems, study examples of current distributed systems, and build their own distributed systems from scratch.  Topics include concurrency, fault tolerance, replication, consistency, agreement.
@@ -63,11 +56,11 @@ Six programming assignments are required, due one-two weeks apart for the first 
 <li> Measuring Fundamentals - Precisely measure the cost of fundamental operations in the system: function call, hash table read/write, network packet, file system I/O, process creation.
 <li> Remote Procedure Call - Build a system in Python for performing remote procedure call between processes. Carefully measure the performance and throughput of this system with multiple clients.
 <li> Persistence - Make the prior system persistent by implementing logging, recovery, and periodic log compression. Measure the performance of the system, observing outliers.
-<li> Robustness - Improve the prior system by making it more discoverable by a name service,
-handle multiple clients simultaneously, and be more robust to a variety of unexpected conditions.
+<li> Naming - Improve the prior system by making it more discoverable by a name service,
+  and handle multiple independent tables internally.
+<li> Concurrency - Improve the system again by permitting multiple simultaneous clients.
 <li> Replication - Improve the prior system by dividing up the storage space among multiple servers,
 allowing for multiple clients to be served simultaneously.  Measure the performance and scalability.
-<li> Caching and Consistency - Improve the performance of the prior system by implementing a caching layer that provides a non-trivial consistency model. Measure the performance under various workloads.
 </ol>
 
 <h2>Final Project</h2>
@@ -76,7 +69,8 @@ In the final project, students will propose, build, and measure a distributed sy
 
 <h2>Graduate Students</h2>
 
-Graduate students taking CSE 60771 will dig deeper into the theory of distributed systems. A selection of paper readings will be assigned that address the course topics in greater detail, balanced between "classic" results in distributed systems and specific case studies in distributed systems design.
+Graduate students taking CSE 60771 will dig deeper into the theory of distributed systems. A selection of paper readings will be assigned that address the course topics in greater detail, balanced between "classic" results in distributed systems and specific case studies in distributed systems design.  Students will work up an annotated bibliography in
+a particular area of interest, and produce an academic paper describing the final project.
 
 <h2>How to Get the Most Out of Class</h2>
 
@@ -102,7 +96,7 @@ Assignments and the course schedule are available on the course website, and ass
 Regular classes will be recorded via Zoom/Panopto and made available by Canvas.
 You are welcome to make use of the recordings if you are out sick, attending
 an interview, or just want a refresher.  However, the recordings are not a good
-substitute for participating in class.
+substitute for participating in class.  Consider them a backup for unexpected events.
 </p>
 <p>
 We will be using Slack to handle general Q&amp;A for the class. If you have a technical question that could be of interest to others, please post it there, so that others can benefit from the answers. You are welcome to post (or answer) questions anytime, and we will generally monitor and answer questions on weekday afternoons. (Keep in mind that we do go home at night, and so late-night questions will get answered the next day.)  For questions about grades or anything else that just applies specifically to you, just email the instructor or TA directly.
@@ -133,8 +127,8 @@ submit your work on time.
 Grades will be weighted as follows:
 <table>
 <th>Category<td>Undergraduates<td>Graduates
-<tr><td> Regular Assignments <td> 40% <td> 35%
-<tr><td> Paper Readings      <td> -   <td> 10%
+<tr><td> Regular Assignments <td> 40% <td> 25%
+<tr><td> Paper Readings      <td> -   <td> 20%
 <tr><td> Course Project      <td> 30% <td> 25%
 <tr><td> Midterm Exam        <td> 15% <td> 15%
 <tr><td> Final Exam          <td> 15% <td> 15%
@@ -143,14 +137,14 @@ Grades will be weighted as follows:
 
 <h2>Health and Safety</h2>
 
-At the time of writing, we expect that campus life and operations will be closer to the pre-pandemic normal.
-However, we are all still getting used to being in close quarters again.
-If you aren't comfortable doing something like shaking hands or sitting closely together, just express your preferences politely, and be understanding of others around you. You are welcome to wear a mask, but it is not required to do so at this time.  Office hours will be held simultaneously in person and via Zoom, and you can attend in whatever mode you prefer.  If the public health situation changes, then we will adapt to new rules as necessary.
 <p>
+At the time of writing, campus life seems to have returned to  pre-pandemic normal.
+If you have a mild illness that keeps you out of class, please view the recordings as a backup.
 If you have a major health condition (or any other unforseen circumstance)
-that will prevent you from coming to class  or completing the assignments,
+that will prevent you from coming to class or completing the assignments,
 please contact Prof. Thain and we will discuss alternate arrangements
 on a case-by-case basis.
+</p>
 
 <h2>Academic Code of Honor</h2>
 
