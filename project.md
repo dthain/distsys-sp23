@@ -32,7 +32,7 @@ during the last week of class.
 
 Following are some ideas to get you thinking.  You are welcome to modify one of these ideas,
 or to pick a different problem, but talk to Prof. Thain first if you have something radically different in mind.
-<b>One thing:</b> please no cryptocurrency implementations!
+**One rule:** please no cryptocurrency implementations!
 These end up consuming a lot of resources to no productive end.
 
 **Peer to Peer Communication Network** - Build a system that allows for social interaction
