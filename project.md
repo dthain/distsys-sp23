@@ -105,8 +105,13 @@ This should include the project partners, a high level description
 of the goals and structure of the system, identification of the key
 *distributed systems* problem in the system, 
 what languages and resources will be necessary to carry it out,
-and your plan for evaluating the system.  The proposal should be
-about two full pages of text.  The instructor will follow up with
+and your plan for evaluating the system.  Be sure to think about
+what *metrics* you will use to evaluate the system -- throughput, latency,
+scalability, runtime -- and sketch a notional graph of how you think
+that metric will change as the system size or load increases.
+(Of course, I don't expect you to know the actual results, but I want
+you to think about **what** you will measure and what orders of magnitude to expect.)
+The proposal should be about two full pages of text.  The instructor will follow up with
 you to make sure that the project is of appropriate size and difficulty.
 **Submit this via the Assignments tab in Canvas.**
 
@@ -119,7 +124,7 @@ writing every bit of code.  Your report should have the following sections:
 - **Purpose**. Describe the purpose of your system.  What is it designed to
 accomplish, and how will you know if it is working correctly?
 What are the essential challenges that must be overcome to deliver service to the user?
-If your project is similar to something that already exists (e.g. Bitcoin or Chord) then explain carefully
+If your project is similar to something that already exists (e.g. Bitcoin or Chord or DNS) then explain carefully
 how your work differs from the original.
 - **Architecture**.  Describe in detail how the internals of the system will work.
 Draw a detailed diagram of the system showing how the processes in the system relate,
@@ -133,7 +138,7 @@ the technology installed and working, and be able to demonstrate some basic func
 even if not all of the features or capabilities are ready yet.  Include one or more
 screenshots to show that something is working.  Indicate your progress
 toward completion and any challenges or problems discovered along the way.
-**Submit this via the Assignments tab in Sakai.**
+**Submit this via the Assignments tab in Canvas.**
 
 **Class Presentation**
 
@@ -147,18 +152,17 @@ and edited slides, containing detailed diagrams of your system.
 
 - While this is a short talk, it will require careful preparation
 in order to be detailed, informative, and on time.  Practice multiple times
-together so that you can consistently finish between 9:30 and 9:59.
-Following each talk, there will be two minutes for questions from the audience.
+together so that you can consistently finish between 9m30s and 9m59s.
+Following each talk, there will be **two** minutes for questions from the audience.
 In the meantime, the next group should come up to the podium and load the next
-slide deck.  (Note that on Friday Dec 3rd, the transition will be immediate,
-in order to fit in all five talks.)
+slide deck.  
 
 - **Attendance will be taken** during project talks, and will count for a portion
 of your grade. Please show courtesy to your classmates by arriving on time and
 giving them your attention.
 
 - To ensure a minimum of technical difficulties, please prepare your slides using
-Google Slides, make sure it is readable by anyone with the link, and email Prof. Thain
+**Google Slides**, make sure it is readable by anyone with the link, and email Prof. Thain
 with the link no later than 5PM the day before the presentation.  (It's fine if you
 continue to update the presentation after that point, but I need the link to assemble
 the schedule.)
