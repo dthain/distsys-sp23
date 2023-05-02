@@ -179,7 +179,8 @@ There is no specific length requirement; the paper should be long enough to expl
 of the necessary details.  The said, anything less than five pages
 is much too short; anything longer than fifteen pages is probably too long.
 
-**Submit your final report as a PDF via the Assignments tab in Canvas,
-and your final code into the dropbox directory on the student machines.**
-
+**Submit your final report as a PDF via the Assignments tab in Canvas.
+The code for your final project should be checked into a (private) github
+repository that is shared with `dthain` and `tphung3`.  Clearly indicate
+the URL of your repository on the first page of your report.**
 
